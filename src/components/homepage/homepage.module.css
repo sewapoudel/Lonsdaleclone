@@ -1,0 +1,42 @@
+.banner {
+    position: relative; 
+    background-color: #8dd2e4;
+  }
+  
+  .desktop-banner-image {
+    background-size: cover;
+    height: calc(100vh - 64px);
+    box-sizing: border-box;
+  }
+  
+  .desktop-banner-image > img {
+    display: block; 
+    width: 100%;
+    height: auto; 
+    overflow: clip;
+  }
+
+  .content {
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-left: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .homepagetext {
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 200;
+    font-size: 24px;
+    margin: 2px 0;
+    line-height: 1.6;
+    color: white;
+    font-weight: 450;
+    margin-top: 100px;
+  }
+  
+  .homepagetext p {
+    margin-bottom: 1rem; 
+  }
+  

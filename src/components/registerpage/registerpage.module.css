@@ -1,0 +1,223 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "aeonikregular";
+    margin-top: 150px;
+    background-color: #8dd2e4;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 0px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+
+.flexLabel {
+    margin-right: 20px;
+    width: 150px; 
+    font-size: 18px; 
+  }
+  
+  .textInput,
+  .emailInput,
+  .selectInput {
+    width: 120%;
+    padding: 14px;
+    margin-right: -88px;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  
+  .checkboxInput {
+    margin-right: 10px;
+  }
+  
+  .label {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+  .submitButton {
+    background-color: #e62629;
+    color: white;
+    margin-left: 3px;
+    margin-right: 396px;
+    padding: 9px 3px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #c51f20;
+  }
+  
+  .error {
+    color: #e62629;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+.formGroup {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.contentLogo {
+    padding-top: 30px;
+    width: 223px;
+    position: absolute;
+    margin-bottom: 100px;
+}
+  
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #8dd2e4;
+  }
+
+  .formSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .select-hidden {
+    display: none;
+    visibility: hidden;
+    padding-right: 10px;
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .colLeft {
+    padding: 20px;
+    margin-left: -100px;
+  }
+  
+  .colRight {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .headingOne {
+    color: #e62629;
+    font-weight: bold;
+    font-family: "Oud Warenhuis";
+    text-align: left; 
+    font-size: 60px;
+    margin-bottom: 0;
+    line-height: 1.2; 
+  }
+  
+  
+.paragraphs {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  
+  .select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color: #8b8b8b;
+    width: 100%;
+    height: 56px;
+  }
+  
+  .select-styled {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 8px 15px;
+    transition: all 0.2s ease-in;
+    padding-top: 15px;
+    border: 1px solid #2d2d2d;
+    color: #8b8b8b;
+  }
+  
+  .select-styled:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+  }
+  
+  .select-styled.active:after {
+    transform: rotate(180deg);
+  }
+  
+  .select-styled:hover {
+    background-color: #fff;
+  }
+  
+  .select-styled:active {
+    background-color: #fff;
+  }
+  
+  .select-styled:active:after {
+    top: 9px;
+    border-color: transparent transparent red transparent;
+  }
+  
+  .selectOptions {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .selectOptions li {
+    margin: 0;
+    padding: 12px 0;
+    text-indent: 15px;
+    border-top: 1px solid #2d2d2d;
+    transition: all 0.15s ease-in;
+  }
+  
+  .selectOptions li:hover,
+  .selectOptions li.isSelected {
+    color: #fff;
+    background: #8b8b8b;
+  }
+  
+  .selectOptions li[rel="hide"] {
+    display: none;
+  }
